@@ -1,1 +1,1 @@
-
+a,b,c = input(),input(),input(); print("OK" if a==b==c else "ENTRY 2 MISMATCH" if b!=a==c else "ENTRY 3 MISMATCH" if c!=a==b else "BOTH MISMATCH")
